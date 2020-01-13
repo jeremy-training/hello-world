@@ -18,7 +18,7 @@ steps:
     echo Chipotle is the best fast food
   displayName: 'Run a the true confessions script'
 
-- script: hello.sh
+- script: ./hello.sh
   displayName: 'Call external script'
 
 - task: Bash@3
